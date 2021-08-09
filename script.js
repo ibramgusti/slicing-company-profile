@@ -188,6 +188,13 @@ $(window).scroll(function () {
 $('.mobileNav').hide();
 $('#toggleNav').click(function () {
     $('.mobileNav').slideToggle();
+    if ($('.mobileNav a').click(function (e) {
+        // e.preventDefault();
+        $('.mobileNav').slideUp();
+
+    })) {
+
+    }
 
 });
 

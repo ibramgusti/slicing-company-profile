@@ -7,6 +7,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     position: relative;
     overflow-x: hidden;
+    /* scroll-behavior: smooth; */
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 .header-first{
@@ -73,6 +78,11 @@ header{
 
 .brandname h3{
     cursor: pointer;
+}
+
+.brandname a{
+    text-decoration: none;
+    color: white;
 }
 
 .collapse-navbar{
@@ -1337,7 +1347,7 @@ header{
         align-items: center;
     }
 
-    .brandname{
+    .brandname, .brandname a{
         color: black;
     }
 
